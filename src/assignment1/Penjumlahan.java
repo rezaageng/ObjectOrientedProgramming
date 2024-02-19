@@ -1,3 +1,5 @@
+package assignment1;
+
 public class Penjumlahan {
     public static void main(String[] args) {
         int a = 4;
