@@ -6,7 +6,10 @@ public class InheritanceMain {
 //        mhs.setNama("Reza Ageng Trihandoko");
 //        System.out.println(mhs.getNama());
 
-        Mahasiswa mhs = new Mahasiswa();
+//        Mahasiswa mhs = new Mahasiswa();
+//        System.out.println(mhs.getNama() + " - " + mhs.getAlamat());
+
+        Mahasiswa mhs = new Mahasiswa("Reza Ageng Trihandoko", "Bandung");
         System.out.println(mhs.getNama() + " - " + mhs.getAlamat());
     }
 }
